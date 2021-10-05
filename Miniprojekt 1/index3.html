@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="CSS/Style.css">
     <meta charset="UTF-8">
@@ -7,17 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontaktsida</title>
 </head>
+
 <body>
-    <p><a href="Index.html">Startsida</a> <a href="index2.html">Inspirationssida</a></p>
+    <nav><a href="Index.html">Startsida</a> <a href="index2.html">Inspirationssida</a></nav>
     <h1>Kontaktinformation</h1>
-<p>
-    <ul>Telefonnummer <q>070-3864826</q></ul>
-<ul>E-Post <q>troyfridholt@hotmail.com</q></ul>
-<ul>Brev <q>Disponentgatan 27, Malmö</q></ul>
+    
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Förnamn"><br>
+       <br> <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Efternamn"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      
 
-</p>
 
-<p><a href="Index.html">Här</a> Kommer du tillbaka till startsidan!</p>
-<p><a href="index2.html">Här</a> kan du också hitta en inspirationssida till mig!</p>
+    <p><a class="spec" href="Index.html">Här</a> Kommer du tillbaka till startsidan!</p>
+    <p><a class="spec" href="index2.html">Här</a> kan du också hitta en inspirationssida till mig!</p>
 </body>
+
 </html>
